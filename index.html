@@ -1,164 +1,140 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Boomchain Global Capital offers blockchain-powered investment plans and secure wealth-building strategies.">
-  <meta name="keywords" content="Crypto, Investment, DeFi, Blockchain, Passive Income">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Boomchain Global Capital</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #e5e5e5;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #004080;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <!-- ✅ Top Notification Bar -->
-  <div class="top-bar">
-    <div class="container top-bar-content">
-      <div class="top-left">
-        📧 <a href="mailto:support@boomchainlab.com">support@boomchainlab.com</a> |
-        📞 <a href="tel:+1800BOOMCHAIN">+1-800-BOOMCHAIN</a> |
-        🕐 24/7 Support
-      </div>
-      <div class="top-right">
-        <form>
-          <select id="language" name="language" class="lang-select">
-            <option value="en">🇺🇸 English</option>
-            <option value="es">🇪🇸 Español</option>
-          </select>
-          <select id="currency" name="currency" class="currency-select">
-            <option value="usd">💵 USD</option>
-            <option value="btc">₿ BTC</option>
-          </select>
-        </form>
-        <div class="socials">
-          <a href="#" aria-label="Twitter"><img src="icons/twitter.svg" alt="Twitter"></a>
-          <a href="#" aria-label="LinkedIn"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
-          <a href="#" aria-label="Telegram"><img src="icons/telegram.svg" alt="Telegram"></a>
-        </div>
-        <a href="#" class="login-btn">🔐 Login</a>
-      </div>
-    </div>
-  </div>  <!-- ✅ Header & Navigation -->  <header class="main-header">
-    <nav class="container nav-container" aria-label="Main Navigation">
-      <div class="logo">Boomchain Global Capital</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#strategy">Strategy</a></li>
-        <li><a href="#plans">Plans</a></li>
-        <li><a href="#referral">Referral</a></li>
-        <li><a href="#security">Security</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>  <!-- ✅ Hero Section -->  <section id="home" class="hero-section">
-    <div class="container">
-      <h1>Welcome to Boomchain Global Capital</h1>
-      <p>Empowering smart investors in the digital economy.</p>
-      <a href="#plans" class="btn-primary">Get Started</a>
-    </div>
-  </section>  <!-- ✅ About Us Section -->  <section id="about" class="section section-white">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We’re a next-gen investment firm revolutionizing blockchain-powered wealth building for global investors.</p>
-      <ul>
-        <li>✔ Web3 & Crypto Expertise</li>
-        <li>✔ Transparent Reporting</li>
-        <li>✔ Global Financial Network</li>
-      </ul>
-    </div>
-  </section>  <!-- ✅ Strategy Section -->  <section id="strategy" class="section section-light">
-    <div class="container">
-      <h2>Our Investment Strategy</h2>
-      <p>We combine traditional finance with DeFi innovation to deliver consistent, secure returns.</p>
-      <ul>
-        <li>📊 Data-Driven Asset Allocation</li>
-        <li>🛡 Risk Mitigation Frameworks</li>
-        <li>⚡ Blockchain Intelligence</li>
-      </ul>
-    </div>
-  </section>  <!-- ✅ Investment Plans -->  <section id="plans" class="section section-white">
-    <div class="container">
-      <h2>Investment Plans</h2>
-      <div class="plans-grid">
-        <div class="plan-card">
-          <h3>🟡 Foundation Plan</h3>
-          <ul>
-            <li>💰 $400 – $3,000</li>
-            <li>📈 1.5% – 2% Weekly</li>
-            <li>⏳ 14 Days</li>
-          </ul>
-          <a href="#" class="btn">Start Now</a>
-        </div>
-        <div class="plan-card">
-          <h3>🟢 Prime Plan</h3>
-          <ul>
-            <li>💰 $2,000 – $5,000+</li>
-            <li>📈 2.5% – 3% Weekly</li>
-            <li>⏳ 14 Days</li>
-          </ul>
-          <a href="#" class="btn">Coming Soon</a>
-        </div>
-      </div>
-    </div>
-  </section>  <!-- ✅ Referral Program -->  <section id="referral" class="section section-light">
-    <div class="container">
-      <h2>Referral Program</h2>
-      <p>Earn passive income by inviting others to invest.</p>
-      <ul>
-        <li>📢 Up to 10% commission</li>
-        <li>📈 Instant dashboard tracking</li>
-        <li>💸 Weekly payouts</li>
-      </ul>
-      <a href="#" class="btn">Join Now</a>
-    </div>
-  </section>  <!-- ✅ Security Section -->  <section id="security" class="section section-white">
-    <div class="container">
-      <h2>Security & Trust</h2>
-      <ul>
-        <li>🔒 Data Encryption</li>
-        <li>✅ KYC/AML Compliance</li>
-        <li>🔍 Smart Contract Audits</li>
-      </ul>
-      <a href="#" class="btn-outline">See How We Protect You</a>
-    </div>
-  </section>  <!-- ✅ Contact Section -->  <section id="contact" class="section section-light">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form class="contact-form" method="POST" action="/submit-form">
-        <label for="fullName">Full Name</label>
-        <input type="text" id="fullName" name="fullName" placeholder="Your Name" required><label for="email">Email Address</label>
-    <input type="email" id="email" name="email" placeholder="Email Address" required>
-
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" placeholder="Subject" required>
-
-    <label for="message">Your Message</label>
-    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-
-    <button type="submit" class="btn-primary">Send Message</button>
-  </form>
-  <p>Email: support@boomchainlab.com | Available 24/7</p>
-</div>
-
-  </section>  <!-- ✅ Footer -->  <footer class="main-footer">
-    <div class="container footer-content">
-      <div>
-        <h3>Boomchain Global Capital</h3>
-        <p>Redefining wealth through blockchain innovation.</p>
-      </div>
-      <div>
-        <h4>Links</h4>
-        <a href="#about">About</a><br>
-        <a href="#plans">Plans</a><br>
-        <a href="#contact">Contact</a><br>
-        <a href="/privacy-policy">Privacy Policy</a><br>
-        <a href="/terms">Terms of Service</a>
-      </div>
-      <div>
-        <h4>Support</h4>
-        <p>support@boomchainlab.com</p>
-        <p>24/7 Service</p>
-      </div>
-    </div>
-    <p class="copyright">© 2025 Boomchain Global Capital</p>
+  <header>
+    <svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="chainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#0066FF;stop-opacity:1" />
+          <stop offset="50%" style="stop-color:#00CCFF;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <g transform="translate(10, 10)">
+        <rect x="0" y="8" width="12" height="12" rx="2" fill="url(#chainGradient)" opacity="0.9"/>
+        <rect x="8" y="16" width="12" height="12" rx="2" fill="url(#chainGradient)" opacity="0.7"/>
+        <rect x="16" y="8" width="12" height="12" rx="2" fill="url(#chainGradient)" opacity="0.9"/>
+        <rect x="24" y="0" width="12" height="12" rx="2" fill="url(#chainGradient)"/>
+        <line x1="12" y1="14" x2="16" y2="14" stroke="url(#chainGradient)" stroke-width="2" opacity="0.6"/>
+        <line x1="20" y1="22" x2="24" y2="18" stroke="url(#chainGradient)" stroke-width="2" opacity="0.6"/>
+        <line x1="28" y1="12" x2="32" y2="8" stroke="url(#chainGradient)" stroke-width="2" opacity="0.6"/>
+        <circle cx="14" cy="14" r="1.5" fill="#00CCFF"/>
+        <circle cx="22" cy="20" r="1.5" fill="#00CCFF"/>
+        <circle cx="30" cy="10" r="1.5" fill="#00CCFF"/>
+      </g>
+      <text x="60" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#textGradient)">
+        Boomchain
+      </text>
+      <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="normal" fill="#666666" letter-spacing="0.5px">
+        GLOBAL CAPITAL
+      </text>
+      <circle cx="180" cy="30" r="8" fill="#0066FF" opacity="0.1"/>
+      <circle cx="175" cy="25" r="4" fill="#00CCFF" opacity="0.15"/>
+    </svg>
+  </header>  <section>
+    <h1 class="section-title">Welcome to Boomchain Global Capital</h1>
+    <p>Secure, transparent and high-yield investment opportunities powered by blockchain technology. Your future, our priority.</p>
+    <button onclick="alert('Getting started!')">Get started</button>
+  </section>  <section>
+    <h2 class="section-title">About Us</h2>
+    <p>Boomchain Global Capital is committed to delivering cutting-edge investment solutions leveraging decentralized finance and strategic asset management. Our team combines years of traditional finance expertise with next-generation technology to provide unmatched results.</p>
+  </section>  <section>
+    <h2 class="section-title">Investment Stargates</h2>
+    <p>We open the doors to global opportunities through diversified digital assets, tokenized strategies, and yield-generating ecosystems. From blue-chip crypto to DeFi staking, our gateways are designed for exponential growth.</p>
+  </section>  <section>
+    <h2 class="section-title">Our Proven Approach to Maximizing Returns</h2>
+    <p>With a combination of risk-managed portfolios, smart algorithmic trading, and active yield farming, we deliver consistent and superior returns for our investors.</p>
+  </section>  <section>
+    <h2 class="section-title">Strategies</h2>
+    <ul>
+      <li>DeFi Staking and Lending</li>
+      <li>Liquidity Provision in Yield Farms</li>
+      <li>Blockchain Infrastructure Investments</li>
+      <li>Token Incubation and Launchpad Ventures</li>
+    </ul>
+  </section>  <section>
+    <h2 class="section-title">Investment Plans</h2>
+    <p>Choose a plan that fits your goals. Whether you're a beginner or seasoned investor, our tailored plans provide options with competitive returns and flexible terms.</p>
+    <ul style="list-style: none; padding: 0;">
+      <li><strong>Starter Plan:</strong> 5% ROI monthly – Minimum $100</li>
+      <li><strong>Pro Plan:</strong> 7% ROI monthly – Minimum $1,000</li>
+      <li><strong>Elite Plan:</strong> 10% ROI monthly – Minimum $10,000</li>
+    </ul>
+  </section>  <section>
+    <h2 class="section-title">Referral Program</h2>
+    <p>Earn bonuses by inviting others to invest with Boomchain. Our multi-tier referral program rewards you for growing our network.</p>
+  </section>  <section>
+    <h2 class="section-title">Security & Transparency</h2>
+    <p>We prioritize your safety. All smart contracts are audited, and our platform maintains the highest standards of compliance and transparency.</p>
+  </section>  <section>
+    <h2 class="section-title">Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Boomchain Global Capital. All rights reserved.</p>
   </footer>
 </body>
 </html>
